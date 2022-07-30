@@ -7,8 +7,10 @@ const Navbar = ({}) => {
                 <img src={logo} alt='logo' />
             </div>
             <nav className={styles.nav}>
-                <a href="#">About</a>
-                <a href='#'>Contact us</a>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
             </nav>
         </header>
     )
