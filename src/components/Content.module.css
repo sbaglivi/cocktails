@@ -1,0 +1,7 @@
+.contentDiv {
+    padding-block: 2em;
+    max-width: 80em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
