@@ -1,8 +1,46 @@
 .textInput {
-    width: 400px;
-    height: 40px;
-    border-radius: 24px;
+    font-family: 'Poppins';
+    width: 700px;
+    height: 60px;
+    border-radius: 30px;
     padding-inline: 24px;
     border: none;
     font-size: 16px;
+    box-shadow: 4px 4px 16px;
+}
+
+.searchButton {
+    border-radius: 40px;
+    background-color: #E8A404;
+    height: 60px;
+    padding-inline: 40px;
+    border: none;
+    color: #212121;
+    position: absolute;
+    font-size: 1em;
+    right: 0px;
+}
+.searchButton:hover {
+    cursor: pointer;
+}
+.searchButton > img {
+    height: 24px;
+}
+
+.inputDiv {
+    position: relative;
+    display: inline-block;
+}
+.searchForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome {
+    font-size: 48px;
+    color: white;
+    font-family: 'Lora';
+    font-weight: 400;
 }

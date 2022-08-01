@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-inline: 2em;
+    padding-inline: 4em;
     align-items: center;
     border-bottom: 1px solid black;
     background-color: #e0e0e0;
@@ -20,11 +20,19 @@
 .nav {
     display: flex;
     flex-direction: row;
-    gap: 2em;
     align-items: center;
 }
 
+.nav ul {
+    list-style: none;
+}
+ul > li {
+    display: inline-block;
+    margin-left: 2em;
+}
 .nav a {
+    font-size: 18px;
+    font-family: 'Poppins';
     text-decoration: none;
     color: #212121;
 }
